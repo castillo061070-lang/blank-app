@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Audit Dashboard</title>
+</head>
+<body>
+  <h1>Audit for Area 1</h1>
+  <form id="auditForm">
+    Date: <input type="date" id="date" value="2025-01-01"><br>
+    Auditor: <input type="text" id="auditor" value="Pedro"><br>
+    <label>Safety:</label> <input type="number" id="Safety" value="1"><br>
+    <label>Sort:</label> <input type="number" id="Sort" value="2"><br>
+    <label>Set in Order:</label> <input type="number" id="SetInOrder" value="1"><br>
+    <label>Shine:</label> <input type="number" id="Shine" value="1"><br>
+    <label>Standardize:</label> <input type="number" id="Standardize" value="2"><br>
+    <label>Sustain:</label> <input type="number" id="Sustain" value="5"><br>
+    <button type="submit">Save</button>
+  </form>
+  <canvas id="scoreChart" width="400" height="200"></canvas>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
